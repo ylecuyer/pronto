@@ -1,3 +1,9 @@
+module Gitlab
+￼ class Request
+  debug_output $stdout
+ end
+end
+
 module Pronto
   class Gitlab < Client
     def commit_comments(sha)
